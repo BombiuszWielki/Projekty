@@ -1,0 +1,8 @@
+INSTRUKCJE:
+- w pierwszym polu wpisz pierwszą liczbę całkowitą
+- w drugim polu wpisz liczbę całkowitą, która ma zakończyć pisanie przedziału
+- kliknij "Pokaż"
+------------------------------------------------------
+UWAGI:
+- liczba w pierwszym polu powinna być mniejsza niż liczba w drugim polu
+- liczby powinny być całkowite x ∈ Z
