@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(65, 65, 65);
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-align: center;
+}
+
+#menu1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.option {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: rgb(5, 5, 5);
+}
+
+.option:active {
+    background-color: rgb(32, 32, 32);
+}
+
+#cytat {
+    background-color: #128870;
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu2 {
+    background-color: rgb(237, 237, 237);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+#content {
+    background-color: rgb(255, 245, 225);
+    width: 799px;
+    border: 1px solid black;
+}
+
+#content p {
+    margin-left: 3px;
+}
+
+#content h2 {
+    margin-left: 10px;
+}
+
+.option2 {
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.option2:hover {
+    background-color: rgb(152, 152, 152);
+}
+
+.option2:active {
+    background-color: rgb(173, 173, 173);
+}
+
+#footer {
+    background-color: rgb(52, 52, 52);
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
