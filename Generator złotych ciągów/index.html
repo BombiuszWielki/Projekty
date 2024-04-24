@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Złoty podział</title>
+    <link rel="stylesheet" href="arkusz.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Generator złotych ciągów</h1>
+    </div>
+
+    <div id="main">
+        <div id="article">
+            <div class="interfejs">
+                <label>
+                    n<sub>01</sub> = <input type="number" id="a" value="12">
+                </label>
+                <label>
+                    n<sub>02</sub> = <input type="number" id="b" value="5">
+                </label>
+                <label>
+                    Ile wyrazów ciągu? -> <input type="number" id="ile" value="20">
+                </label>
+            </div>
+
+            <div class="interfejs">
+                Nieparzyste -> 
+                <input type="button" name="np" value="red">
+                <input type="button" name="np" value="green">
+                <input type="button" name="np" value="magenta">
+
+                Parzyste -> 
+                <input type="button" class="parzyste" value="red">
+                <input type="button" class="parzyste" value="green">
+                <input type="button" class="parzyste" value="magenta">
+
+                &Phi; -> 
+                <input type="button" class="phi" value="red">
+                <input type="button" class="phi" value="green">
+                <input type="button" class="phi" value="magenta">
+
+                Wszystkie -> 
+                <input type="button" class="wszystkie" value="red">
+                <input type="button" class="wszystkie" value="green">
+                <input type="button" class="wszystkie" value="magenta">
+            </div>
+
+            <div>
+                <input type="button" id="generuj_ciag" value="Generuj ciąg">
+                <input type="button" id="blokada" value="Zablokuj">
+            </div>
+
+            <div>
+                <div id="ciag"></div>
+                <div id="fi"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
