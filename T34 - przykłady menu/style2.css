@@ -1,0 +1,12 @@
+#blok a, #blok li:hover li a {
+    display: block;
+    font: 12px/30px verdana, sans-serif;
+    text-decoration: none;
+    padding: 0 10px;
+    width: 140px;
+    background-color: #c0c0cf;
+}
+#blok li:hover a, #blok li:hover li:hover a {
+    background-color: #333033;
+    color: white;
+}

@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box:nth-child(1) {
+    flex-grow: 1
+}

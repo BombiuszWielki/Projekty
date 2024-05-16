@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica;
+}
+
+#blok-lewy,#baner-lewy {
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+
+#blok-prawy,#baner-prawy {
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 70%;
+    height: 200px;
+}
+
+#blok-glowny,#stopka {
+    background-color: rgb(240,234,226);
+    padding: 120px;
+}
+
+table,td {
+    border: 1px rgb(130,69,85) solid;
+    color: rgb(130,69,85);
+    padding: 10px;
+}
+
+a {
+    color: rgb(240, 234, 226);
+}
+
+#baner-prawy, #baner-lewy {
+    display: grid;
+}

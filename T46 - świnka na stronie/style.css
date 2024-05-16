@@ -1,0 +1,22 @@
+#head {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#content {
+    text-align: center;
+}
+
+#footer {
+    background-color: blue;
+    color: white;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+p {
+    margin-right: 10px;
+}

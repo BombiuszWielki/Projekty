@@ -1,0 +1,71 @@
+body {
+    background-color: #EEEEEE;
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#logo, #menu, #stopka {
+    background-color: #C0C0C0;
+    height: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#logo {
+    width: 400px;
+}
+
+#menu {
+    width: 600px;
+}
+
+#baner {
+    background-color: #DDDDDD;
+}
+
+#blok-glowny {
+    margin: 50px;
+}
+
+#stopka {
+    text-align: right;
+}
+
+a {
+    color: #555555;
+    margin: 50px;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #C0C0C0;
+    width: 70%;
+
+}
+
+fieldset {
+    text-align: left;
+}
+
+#menu {
+    float: right;
+    padding-bottom: 400px;
+}
+
+#baner {
+    width: 900px;
+}
+
+#logo, #grafika {
+    display: flex;
+    flex-flow: column;
+}
+
+#grafika {
+    margin-top: 200px;
+}
