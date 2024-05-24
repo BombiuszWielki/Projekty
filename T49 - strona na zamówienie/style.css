@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    width: 1200px;
+    height: 750px;
+    margin-inline: auto;
+}
+
+#menu{
+    background-color: aquamarine;
+    width: 180px;
+    height: 580px;
+    padding: 20px 20px 91px 20px;
+}
+
+#menu1{
+    background-color: aquamarine;
+    width: 180px;
+    height: 580px;
+    padding: 20px 20px 75px 20px;
+}
+
+#header{
+    background-color: white;
+    padding-block: 20px;
+    text-align: center;
+}
+
+#img{
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+}
+
+#footer{
+    background-color: cyan;
+    width: 1200px;
+    text-align: center;
+    margin-inline: auto;
+    position: relative;
+    bottom: 81px;
+}
+
+#right{
+    width: 1000px;
+    height: 600px;
+}
+
+.elipsa{
+    display: block;
+    text-align: center;
+}
+
+#footer1{
+    background-color: cyan;
+    width: 1200px;
+    text-align: center;
+    margin-inline: auto;
+    position: relative;
+    bottom: 173px;
+}
